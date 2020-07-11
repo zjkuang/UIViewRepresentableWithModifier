@@ -22,7 +22,6 @@ struct SearchBarUIViewRepresentable: UIViewRepresentable {
     
     init(binding searchText: Binding<String>) {
         _searchText = searchText
-        mutatingWrapper = MutatingWrapper()
         makeCoordinator()
     }
     
