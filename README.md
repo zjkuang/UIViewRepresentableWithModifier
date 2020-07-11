@@ -68,6 +68,7 @@ struct SearchBarUIViewRepresentable: UIViewRepresentable {
         return mutatingWrapper.coordinator!
     }
     ...
+}
 ```
 ## How to Use
 
